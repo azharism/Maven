@@ -90,7 +90,7 @@ Here are some common Maven commands:
 
 mvn clean compile
 mvn clean test
-mvn clean package -DskipTests=true
+mvn clean package -DskipTests=true  if test cases fail run to skip test cases
 mvn clean verify
 mvn clean package
 mvn clean deploy
